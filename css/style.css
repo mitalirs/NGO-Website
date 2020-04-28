@@ -1,10 +1,9 @@
 h1{
-	color: #000080;
+	color: #FAFAD2;
 }
 .jumbotron{
-	text-align: center;
-	background-color:#E6E6FA;
-  	
+	text-align:center;
+	background-color:#FFA07A;
 	margin-bottom: 3px;
 }
 .jumbotron .container h1{
