@@ -1,18 +1,46 @@
-h1{
-	color: #FAFAD2;
-}
+
 .jumbotron{
 	text-align:center;
 	background-color:#FFA07A;
 	margin-bottom: 3px;
+
 }
 .jumbotron .container h1{
 	font-family: "Quicksand",sans-serif;
 	font-weight:500;
+	/*color: #FAFAD2;*/
+	color:#FFF5EE;
 	font-size:60px;
 }
 .jumbotron .container p{
 	font-family: "Raleway",sans-serif;
 	font-weight:100;
 	font-size:20px;	
+}
+
+#subhead{
+	font-family: 'Cardo', serif;
+	font-weight: 300;
+	font-size:47px;
+	text-align: center;
+	color:#FFA07A;
+}
+#subhead_container{
+	margin-top: 67px;
+	margin-bottom: 25px;
+
+}
+.content{
+	font-family: "Raleway",sans-serif;
+	color:#708090;
+	font-size: 24px;
+}
+
+.cont_container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 30px;
 }
