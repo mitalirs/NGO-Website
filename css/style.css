@@ -1,3 +1,19 @@
 h1{
-	color: yellow;
+	color: #000080;
+}
+.jumbotron{
+	text-align: center;
+	background-color:#E6E6FA;
+  	
+	margin-bottom: 3px;
+}
+.jumbotron .container h1{
+	font-family: "Quicksand",sans-serif;
+	font-weight:500;
+	font-size:60px;
+}
+.jumbotron .container p{
+	font-family: "Raleway",sans-serif;
+	font-weight:100;
+	font-size:20px;	
 }
