@@ -1,7 +1,7 @@
 
 .jumbotron{
 	text-align:center;
-	background-color:#FFA07A;
+	background-color:#FF7F50;
 	margin-bottom: 3px;
 
 }
@@ -19,10 +19,11 @@
 }
 
 #subhead{
-	font-family: 'Cardo', serif;
+	font-family: 'Questrial', sans-serif;
 	font-weight: 300;
-	font-size:47px;
+	font-size:54px;
 	text-align: center;
+	/*text-transform: uppercase;*/
 	color:#FFA07A;
 }
 #subhead_container{
@@ -33,7 +34,7 @@
 .content{
 	font-family: "Raleway",sans-serif;
 	color:#708090;
-	font-size: 24px;
+	font-size: 22px;
 }
 
 .cont_container {
@@ -42,5 +43,92 @@
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
-    margin-top: 30px;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+
+/*------------------------------------ABOUT CSS----------------------------------------*/
+.head_container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+  	text-align: center;
+  	
+  }
+ .cont-1{
+ 	background-color:rgba(255,127,80,0.8);
+ }
+ .cont-2{
+ 	background-color:#DCDCDC;
+ }
+ .out_container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 40px;
+  }
+  .content_1,
+  .members{
+	font-family: "Raleway",sans-serif;
+	color:#DCDCDC;
+	font-size: 22px;
+	padding:10px 10px;
+}
+.content_2{
+	font-family: "Raleway",sans-serif;
+	color:#FF7F50;
+	font-size: 22px;
+	padding:10px 10px;
+}
+.history ,
+.motto{
+	width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 15px;
+}
+
+#team{
+	color:#696969;
+	font-family: 'Questrial', sans-serif;
+	font-size: 45px;
+
+}
+.fa{
+	font-size: px;
+	/*line-height: 60px;*/
+	transition: 4s;
+	color:#fff;
+}
+.card-body a{
+	display:inline-block;
+	width:36px;
+	height:36px;
+	text-align: center;
+	padding-top: 0px;
+	border-radius: 20%;
+	background-color:#000; 
+}
+.card-body {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+   	padding: 15px; 
+}
+.card-title {
+    margin-bottom: 10px;
+}
+.members{
+	color:black;
+}
+.mem_container{
+	padding-top: 10%;
+	padding-bottom:20%;
+	background-color: rgba(220,220,220,0.3);
 }
