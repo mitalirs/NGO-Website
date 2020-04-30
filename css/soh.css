@@ -1,0 +1,65 @@
+#jh{
+	text-align:center;
+	background-color:#FF7F50;
+	margin-bottom: 3px;
+
+}
+.jumbotron .container h1{
+	font-family: "Quicksand",sans-serif;
+	font-weight:500;
+	/*color: #FAFAD2;*/
+	color:#FFF5EE;
+	font-size:60px;
+}
+.jumbotron .container p{
+	font-family: "Raleway",sans-serif;
+	font-weight:100;
+	font-size:20px;	
+}
+
+#subhead{
+	font-family: 'Questrial', sans-serif;
+	font-weight: 300;
+	font-size:54px;
+	text-align: center;
+	/*text-transform: uppercase;*/
+	color:#FFA07A;
+
+	letter-spacing:1px;
+}
+#subhead_container{
+	margin-top: 67px;
+	margin-bottom: 25px;
+
+}
+.content{
+	font-family: "Raleway",sans-serif;
+	color:#708090;
+	font-size: 22px;
+}
+
+
+
+   /*------------------------------------------soh-------------------------------------------------*/
+
+
+#s_head{
+	font-family: 'Assistant', sans-serif;
+	font-weight: 500;
+	font-size:35px;
+	text-align: left;
+
+	/*text-transform: uppercase;*/
+	color:#fff;
+}
+#j1{
+	background-color: transparent;
+	margin-bottom: 0px; 
+}
+.scontent{	
+	font-family: 'Assistant', sans-serif;
+	letter-spacing: 0.5px;
+	color:black;
+	font-size: 17px;
+
+}
