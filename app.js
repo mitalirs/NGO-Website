@@ -49,24 +49,21 @@ var Volunteer = mongoose.model("Volunteer" , VolunteerSchema);
 app.get('/', function(req, res){
 	res.render('index');
 });
-// app.get('/', function(req , res){
-// 	res.sendFile('C:/Users/Aabha Pingle/Documents/GitHub/NGO-Website/views/index.html');
-// });
 
 app.get('/about', function(req , res){
 	res.render('aboutus');
 });
 
 app.get('/blog', function(req , res){
-	res.sendFile('C:/Users/Aabha Pingle/Documents/GitHub/NGO-Website/views/blog.html');
+	res.render('blog');
 });
 
 app.get('/done', function(req , res){
-	res.sendFile('C:/Users/Aabha Pingle/Documents/GitHub/NGO-Website/views/done.html');
+	res.render('done');
 });
 
 app.get('/new', function(req , res){
-	res.sendFile('C:/Users/Aabha Pingle/Documents/GitHub/NGO-Website/views/new.html');
+	res.render('new');
 });
 
 //create new
@@ -78,7 +75,7 @@ app.post('/done',function(req , res){
 	Volunteer.create(req.body.Volunteer , function(err , newVolunteer){
 		if (err) {
 			console.log(err)
-			res.render('new.html');
+			res.render('new');
 		}else{
 			res.redirect('/done');
 		}
@@ -86,15 +83,19 @@ app.post('/done',function(req , res){
 })
 
 app.get('/soh1', function(req , res){
-	res.sendFile('C:/Users/Aabha Pingle/Documents/GitHub/NGO-Website/views/soh1.html');
+	res.render('soh1');
 });
 
 app.get('/soh2', function(req , res){
-	res.sendFile('C:/Users/Aabha Pingle/Documents/GitHub/NGO-Website/views/soh2.html');
+	res.render('soh2');
 });
 
 app.get('/soh3', function(req , res){
-	res.sendFile('C:/Users/Aabha Pingle/Documents/GitHub/NGO-Website/views/soh3.html');
+	res.render('soh3');
+});
+
+app.get('/soh4', function(req , res){
+	res.render('soh4');
 });
 
 app.listen(3000 , function(){
