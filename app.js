@@ -5,16 +5,15 @@ expressSanitizer   = require('express-sanitizer');
        bodyParser  = require('body-parser');
        mongoose    = require("mongoose");
 
-//Loads the handlebars module
-const handlebars = require('express-handlebars');
+// //Loads the handlebars module
+// const handlebars = require('express-handlebars');
 
 //Sets our app to use the handlebars engine
-app.set('view engine', 'handlebars');
 
 //Sets handlebars configurations (we will go through them later on)
-app.engine('handlebars', handlebars({
-layoutsDir: __dirname + '/views/layouts',
-}));
+// app.engine('handlebars', handlebars({
+// layoutsDir: __dirname + '/views/layouts',
+// }));
 
 mongoose.set('useNewUrlParser', true);
 mongoose.set('useFindAndModify', false);
@@ -25,8 +24,9 @@ mongoose.set('useUnifiedTopology', true);
 	
 mongoose.connect("mongodb://localhost/ngo_db");//database changed
 app.use(bodyParser.urlencoded({extended: true}));
-
+app.set('view engine', 'ejs');
 app.use(express.static("public"));
+app.use(express.static('images'));
 app.use(expressSanitizer());
 app.use(methodOverride("_method"));//_method is for what it should look in the url
 
@@ -46,17 +46,15 @@ var Volunteer = mongoose.model("Volunteer" , VolunteerSchema);
 // 	resume : "I am a good Volunteer."
 // })
 
-app.get('/', (req, res) => {
-//Serves the body of the page aka "main.handlebars" to the container //aka "index.handlebars"
-res.render('index',);
-// res.send('hello')
+app.get('/', function(req, res){
+	res.render('index');
 });
 // app.get('/', function(req , res){
 // 	res.sendFile('C:/Users/Aabha Pingle/Documents/GitHub/NGO-Website/views/index.html');
 // });
 
 app.get('/about', function(req , res){
-	res.sendFile('C:/Users/Aabha Pingle/Documents/GitHub/NGO-Website/views/aboutus.html');
+	res.render('aboutus');
 });
 
 app.get('/blog', function(req , res){
