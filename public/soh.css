@@ -63,3 +63,9 @@
 	font-size: 17px;
 
 }
+.borderbox{
+	padding-top: 2%;
+	border-left: solid;
+    border-left-width: 7px;
+    border-left-color: #FF7F50;
+}

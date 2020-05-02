@@ -33,3 +33,10 @@ hr{
     color: Tomato;
     margin-left: 20px;
 }
+.scontent{  
+    font-family: 'Assistant', sans-serif;
+    letter-spacing: 0.5px;
+    color:black;
+    font-size: 17px;
+
+}
