@@ -69,3 +69,45 @@
     border-left-width: 7px;
     border-left-color: #FF7F50;
 }
+.ind{ 
+font-family: 'Assistant' sans-serif;
+font-weight: bolder;
+letter-spacing: 1px;
+color: #FF7F50;
+margin-top: 5%;
+text-align: center;
+text-transform: uppercase;
+
+margin-bottom: 0%;
+}
+.ind h2{
+	font-size:45px;
+	letter-spacing: 1px;
+	font-weight: bolder;
+}
+.form-group label,
+.form-group p{
+	font-family: 'Assistant', sans-serif;
+	letter-spacing: 0.5px;
+	color:black;
+	font-size: 17px;
+}
+.form-control{
+	font-family: 'Assistant', sans-serif;
+	letter-spacing: 0.5px;
+	color:black;
+	font-size: 17px;
+}
+.btn{
+	width: 90px;
+	height: 40px;
+	background-color:#FF7F50;
+	border-radius: 4px;
+	text-align: center;
+	font-family: 'Assistant', sans-serif;
+	letter-spacing: 1px;
+	color:white;
+	font-weight: bolder;
+	font-size: 17px;
+
+}
