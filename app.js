@@ -62,6 +62,14 @@ app.get('/done', function(req , res){
 	res.render('done');
 });
 
+app.get('/gallery', function(req , res){
+	res.render('gallery');
+});
+
+app.get('/indiafightscorona', function(req , res){
+	res.render('indiafightscorona');
+});
+
 app.get('/new', function(req , res){
 	res.render('new');
 });
@@ -96,6 +104,10 @@ app.get('/soh3', function(req , res){
 
 app.get('/soh4', function(req , res){
 	res.render('soh4');
+});
+
+app.get('/contactus', function(req , res){
+	res.render('contactus');
 });
 
 app.listen(3000 , function(){
