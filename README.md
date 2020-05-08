@@ -5,10 +5,11 @@
 
 # Installation
   ```
-  npm i express     --save
-  npm i mongoose    --save
-  npm i ejs         --save
-  npm i body-parser --save
+  $ npm i express     
+  $ npm i mongoose    
+  $ npm i ejs         
+  $ npm i body-parser 
+  $ npm install method-override
 
   ``` 
 # Usage
