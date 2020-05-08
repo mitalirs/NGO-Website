@@ -65,10 +65,10 @@
 }
 .card-body .container a.card-link:link{
 	display:inline-block;
-	width:36px;
-	height:36px;
+	width:34px;
+	height:34px;
 	text-align: center;
-	padding-top: 0px;
+	padding-top: 6px;
 	border-radius: 20%;
 	background-color:#000; 
 }
@@ -92,10 +92,10 @@
 }
 .card-body .container a.card-link:hover{
 	display:inline-block;
-	width:36px;
-	height:36px;
+	width:34px;
+	height:34px;
 	text-align: center;
-	padding-top: 0px;
+	padding-top: 6px;
 	border-radius: 20%;
 	background-color:rgba(105,105,105,1);
 	transition: 0.3s; 
@@ -105,7 +105,7 @@
 	
 	border:none;
 	padding: 0;
-	margin-bottom: 20px
+	margin-bottom: 20px;
 }
 
 .btn-link{

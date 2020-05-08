@@ -277,7 +277,7 @@ footer{
 }
 .fa{
 
-	transition: 0.3s;
+	transition: 0.3s !important;
 }
 
 .f_ilink .fa:hover{
