@@ -214,92 +214,7 @@ a.stt:hover{
 	transition: 0.3s;
 	
 }
-/*
-nav ul li{
-	line-height: 40px;
-	display: inline-block;
-	margin: 0 5px;
 
-}
-nav{
-	background-color: black;
-	height: 40px;
-	width: 100%;
-}
-nav ul{
-	float: right;
-	margin-right: 20px;
-}
-nav ul li a{
-	text-decoration: none;
-	font-family: "Raleway",sans-serif;
-	color: white;
-	font-size: 17px;
-	text-transform: uppercase;
-}
-a.active,a:hover{
-	color:#FF7F50;
-	transition: 0.5s;
-	text-decoration: none;
-}
-.checkbtn{
-	font-size: 30px;
-	color: white;
-	float: right;
-	line-height: 40px;
-	cursor: pointer;
-	display: none;
-}
-#check{
-	display: none;
-}
-@media (max-width: 952px){
-	nav ul li{
-		font-size: 13px;
-
-	}
-}
-@media (max-width: 858px){
-	.checkbtn{
-		display: block;
-		color: white;
-		font-size: 30px;
-	}
-	ul{
-		position: fixed;
-		width:100%;
-		height: 100vh;
-		background-color:black;
-		text-align: center;
-		left: -100%;
-		top:40px;
-		transition: all .5s;
-	}
-	nav ul li{
-		display: block;
-		margin: 50px 0;
-		line-height: 30px;
-
-	}
-	nav ul li a{
-		font-size: 20px;
-	}
-	a:hover,a.active{
-		color:#FF7F50;
-
-	}
-	#check:checked ~ ul{
-		left: 0;
-
-	}
-}
-.navigation{
-	padding: 0;
-	margin: 0;
-	text-decoration: none;
-	list-style: none;
-	box-sizing: border-box;
-}*/
 .nav-link p ,.navbar-brand{
 	text-decoration: none;
 	font-family: "Raleway",sans-serif;
@@ -318,3 +233,111 @@ a.active,a:hover{
 li .nav-item{
 	margin-right: 15px;
 }
+footer{
+	padding: 3% 0%;
+	background-color: black;
+	color:#808080;
+	margin-top: 25px;
+}
+.fhead{
+	font-style: font-family: "Raleway",sans-serif;
+	font-weight: 200px;
+	font-size: 20px;
+	text-transform: uppercase;
+}
+.f_col{
+	text-align: center;
+
+}
+.f_link{
+	text-decoration: none;
+	font-family: "Raleway",sans-serif;
+	color:#808080;
+	font-size: 16px;
+}
+.f_link:hover{
+	text-decoration: none;
+	font-family: "Raleway",sans-serif;
+	color:#FF7F50;
+	font-size: 16px;
+	transition:0.4s;
+}
+.f_ilink i{
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	font-size: 20px;
+	background-color: white;
+	padding-top:1.5%;
+	border-radius: 50%;
+	color: black;
+	margin: 1%;
+
+	
+}
+.fa{
+
+	transition: 0.3s;
+}
+
+.f_ilink .fa:hover{
+	background-color: #FF7F50;
+	color: #DCDCDC;
+
+}
+#f_btn{
+	text-decoration: none;
+	font-family: "Raleway",sans-serif;
+	font-size: 15px;
+	color:black;
+	background-color: white;
+	border-color: transparent;
+}
+#f_btn a{
+	color:black;
+	font-weight: bold;
+	letter-spacing: 1px;
+}
+#f_btn:hover ,
+#f_btn:active{
+	background-color: #FF7F50;
+	transition: 0.4s;
+	text-decoration: none;
+	border-color: transparent;
+}
+#f_btn:hover a,
+#f_btn:active a{
+	color: #DCDCDC;
+	font-weight: bold;
+	text-decoration:none; 
+	letter-spacing: 1px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

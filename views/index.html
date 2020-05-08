@@ -17,10 +17,17 @@
      <link rel="stylesheet" type="text/css" href="../public/soh.css">
      <script src="https://kit.fontawesome.com/a076d05399.js"></script>
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
+
+
+     <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
    
     <!---------------------------------------------animation--------------------------->
     
-    <title>Ray of hope</title>
+    
 
 
 
@@ -110,13 +117,8 @@
 </div>
 
 
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-  </body>
-</html>
+    
+ 
 
 <div class="container container-fluid">
   <div class="row" id="subhead_container">
@@ -283,32 +285,42 @@
 	    </div>
 	  </div>
 	 </div>
+  </body>
+
+
    <footer>
       <div class="container"> 
        <div class="row">
-        <div class="col-md-4">
-         < class="fhead">Register as a volunteer</p>
-         <button class="btn btn-default">Register</button> 
+        <div class="col-md-4 ">
+          <div class="f_col">
+           <p class="fhead">Register as a volunteer</p>
+           <button class="btn btn-default" id="f_btn"><a href="new.html">Register</a></button> 
+          </div>
         </div>
         <div class="col-md-4">
-          <p class="fhead">Quicklinks</p>
-          <ul>
-            <li cl><a href="index.html">Home</a></li>
-            <li><a href="aboutus.html">About Us</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="blog.html">Blogs</a></li>
-            <li><a href="contact.html">Contact Us</a></li>
-          </ul>
+          <div class="f_col">
+            <p class="fhead">Quicklinks</p>
+       
+            <a href="index.html" class="f_link">Home</a><br>
+            <a href="aboutus.html" class="f_link">About Us</a><br>
+            <a href="gallery.html" class="f_link">Gallery</a><br>
+            <a href="blog.html" class="f_link">Blogs</a><br>
+            <a href="contact.html" class="f_link">Contact Us</a><br>
+          
+          </div>
         </div>
         <div class="col-md-4">
-         <p class="fhead">Follow us on</p>
-         <a href="#" class="flink"><i class="fa fa-facebook"></i></a>
-         <a href="#" class="flink"><i class="fa fa-twitter"></i></a>
-         <a href="#"class="flink"><i class="fa fa-instagram"></i></a> 
+          <div class="f_col">
+           <p class="fhead">Follow us on</p>
+           <a href="#" class="f_ilink"><i class="fa fa-facebook"></i></a>
+           <a href="#" class="f_ilink"><i class="fa fa-twitter"></i></a>
+           <a href="#"class="f_ilink"><i class="fa fa-instagram"></i></a>
+          </div> 
         </div>
        </div>
       </div>
    </footer>
+  </html>
 
 	
 
@@ -319,3 +331,4 @@
  <script>
   AOS.init()
 </script>
+
