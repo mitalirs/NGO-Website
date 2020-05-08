@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>new registration</title>
+        <title>New Registration| Ray Of Hope</title>
             <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css">
             <link rel="stylesheet" type="text/css" href="/stylesheets/app.css">
             <link rel="stylesheet" href="blog.css">
@@ -21,7 +21,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="../public/style.css">
-
+    <link rel="stylesheet" type="text/css" href="../public/contactus.css">
      <link rel="stylesheet" type="text/css" href="../public/soh.css">
      <script src="https://kit.fontawesome.com/a076d05399.js"></script>
      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" >
@@ -47,7 +47,7 @@
         <a class="nav-link" href="blog.html"><p>Blogs</p></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href=""><p>Contact Us</p></a>
+        <a class="nav-link" href="contactus.html"><p>Contact Us</p></a>
       </li>
  
     </ul>
@@ -69,22 +69,23 @@
 	<div class="ui huge header">Volunteer Registration</div>
 	<form class="ui form" action="/done" method="POST">
 		<div class="field">
-			<label>Name</label>
-			<input type="text" name="Volunteer[name]" placeholder="name">
+			<label class="c_label">Name</label>
+			<input type="text" name="Volunteer[name]" class="c_text" placeholder="name">
 		</div>
 
 		<div class="field">
-			<label>Email</label>
-			<input type="text" name="Volunteer[email]" placeholder="email">
+			<label class="c_label">Email</label>
+			<input type="text" name="Volunteer[email] "class="c_text" placeholder="email">
 		</div>
 
 		<div class="field">
-			<label>Resume</label>
-			<textarea name="Volunteer[resume] "></textarea>
+			<label class="c_label">Resume</label>
+			<textarea class="c_text" name="Volunteer[resume] "></textarea>
 		</div>
 		
 		
-		<input class="ui violet big basic button " type="submit">
+		<!--<input class="ui violet big basic button " type="submit">-->
+    <button class="btn btn-default"id="o_btn" type="submit" ><div id="c_btn"><a href="done.html" style="color: white">Submit</a></div></button>
 	</form>
 </div>
 </body>
@@ -105,7 +106,7 @@
             <a href="aboutus.html" class="f_link">About Us</a><br>
             <a href="gallery.html" class="f_link">Gallery</a><br>
             <a href="blog.html" class="f_link">Blogs</a><br>
-            <a href="contact.html" class="f_link">Contact Us</a><br>
+            <a href="contactus.html" class="f_link">Contact Us</a><br>
           
           </div>
         </div>
