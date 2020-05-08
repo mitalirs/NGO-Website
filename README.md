@@ -9,7 +9,7 @@
   $ npm i mongoose    
   $ npm i ejs         
   $ npm i body-parser 
-  $ npm install method-override
+  $ npm i method-override
 
   ``` 
 # Usage
