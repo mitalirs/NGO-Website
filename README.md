@@ -24,6 +24,6 @@
 # After you register as a volunteer
   The registration details will be displayed on your console.
   These details will be stored in the ngo_db database.
-# Contributers
+# Contributors
   Aabha Pingle (FE 7) 
   Mitali Sonawane (FE 8)
