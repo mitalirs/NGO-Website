@@ -1,0 +1,91 @@
+#c_label,#c_text{
+	font-family: 'Assistant', sans-serif;
+	letter-spacing: 0.5px;
+	color:black;
+	font-size: 17px;
+}
+
+#c_btn{
+	width: 60px;
+	height: 30px;
+	
+	border-radius: 4px;
+	text-align: center;
+	font-family: 'Assistant', sans-serif;
+	letter-spacing: 1px;
+	color:#fff;
+	font-weight: bolder;
+	font-size: 17px;
+	padding-top:7%; 
+	border:none;
+
+
+}
+#o_btn{  
+background-color:#FF7F50;
+}
+.c_head{
+
+margin-top: 6%;
+margin-bottom: 3%;
+}
+.c_head h2,
+.c_p p{
+	font-family: "Raleway",sans-serif;
+	letter-spacing: 1px;
+	color: #FF7F50;
+	font-size: 30px;
+	font-weight: bold;
+}
+iframe{
+	margin-top:3.5%;
+	border-radius: 6px; 
+}
+#map{
+	font-size: 25px;
+	color: grey;
+}
+.c_p
+{
+	display: inline-block;
+	margin-right:  10px;
+	margin-top: 5%;
+}
+#c_row{
+	background-color: rgba(220,220,220);
+}
+.c_q p{
+	font-family: "Raleway",sans-serif;
+	letter-spacing: 1px;
+	color: black;
+	font-size: 20px;
+	
+}
+.c_q{
+	display: inline-block;
+	margin-right:  10px;
+	text-align: center;
+}
+.c_c{
+	text-align: center;
+	padding: 2%;
+	margin-bottom: 3%;
+}
+.c_c .fas{
+	font-size: 20px;
+}
+.c_co p{
+
+	font-family: "Assistant",sans-serif;
+	letter-spacing: 1px;
+	color: black;
+	font-size: 18px;
+}
+.c_co a{
+	text-decoration: none;
+}
+.c_co{
+
+	text-align: center;
+	margin-bottom: 2%;
+}
