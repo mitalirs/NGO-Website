@@ -69,7 +69,8 @@ iframe{
 .c_c{
 	text-align: center;
 	padding: 2%;
-	margin-bottom: 3%;
+	margin-bottom: 2%;
+
 }
 .c_c .fas{
 	font-size: 20px;
@@ -80,6 +81,7 @@ iframe{
 	letter-spacing: 1px;
 	color: black;
 	font-size: 18px;
+		padding-bottom: 27px;
 }
 .c_co a{
 	text-decoration: none;

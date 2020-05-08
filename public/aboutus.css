@@ -98,7 +98,7 @@
 	padding-top: 6px;
 	border-radius: 20%;
 	background-color:rgba(105,105,105,1);
-	transition: 0.3s; 
+	transition: 0.3s !important; 
 }
 
 .card,.card-header{
@@ -143,3 +143,4 @@ h2 .mb-0 .bg{
 	color: yellow;
 	
 }
+

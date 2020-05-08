@@ -247,6 +247,7 @@ footer{
 }
 .f_col{
 	text-align: center;
+	padding-bottom: 25px;
 
 }
 .f_link{
@@ -313,7 +314,14 @@ footer{
 	letter-spacing: 1px;
 
 }
+/*#counterbox p{
 
+	font-size: 20px;
+}
+#counterbox #counter{  
+	font-size: 80px;
+	
+}*/
 
 
 
