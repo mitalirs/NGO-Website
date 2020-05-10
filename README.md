@@ -24,6 +24,9 @@
 # After you register as a volunteer
   The registration details will be displayed on your console.
   These details will be stored in the ngo_db database.
+# Home page
+  Check the links below india fights corona, stories of hope and register as a volunteer by clicking the pictures below it.
+
 # Contributors
   Aabha Pingle (FE 7) 
   Mitali Sonawane (FE 8)
