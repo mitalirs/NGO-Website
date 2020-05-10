@@ -68,7 +68,7 @@
 	width:34px;
 	height:34px;
 	text-align: center;
-	padding-top: 6px;
+	padding-top: 3%;
 	border-radius: 20%;
 	background-color:#000; 
 }
@@ -95,7 +95,7 @@
 	width:34px;
 	height:34px;
 	text-align: center;
-	padding-top: 6px;
+	padding-top: 3%;
 	border-radius: 20%;
 	background-color:rgba(105,105,105,1);
 	transition: 0.3s !important; 
