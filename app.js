@@ -23,8 +23,8 @@ mongoose.set('useUnifiedTopology', true);
 //app config
 	
 // mongoose.connect("mongodb://localhost/ngo_db");//database changed
-const uri = "mongodb+srv://aabhap_31:Shakti@2020@ngo-cluster-j9m9q.mongodb.net/test?retryWrites=true&w=majority"
-mongoose.connect(uri, {
+const MONGODB_URI = "mongodb+srv://aabhap_31:Shakti@2020@ngo-cluster-j9m9q.mongodb.net/test?retryWrites=true&w=majority"
+mongoose.connect(MONGODB_URI, {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
