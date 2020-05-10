@@ -22,7 +22,13 @@ mongoose.set('useUnifiedTopology', true);
 
 //app config
 	
-mongoose.connect("mongodb://localhost/ngo_db");//database changed
+// mongoose.connect("mongodb://localhost/ngo_db");//database changed
+const uri = "mongodb+srv://aabhap_31:Shakti@2020@ngo-cluster-j9m9q.mongodb.net/test?retryWrites=true&w=majority"
+mongoose.connect(uri, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true
+});
+console.log('MONGODB connected')
 app.use(bodyParser.urlencoded({extended: true}));
 app.set('view engine', 'ejs');
 app.use(express.static("public"));
