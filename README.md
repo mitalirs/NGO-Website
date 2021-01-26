@@ -26,6 +26,8 @@
   These details will be stored in the ngo_db database.
 # Home page
   Check the links below india fights corona, stories of hope and register as a volunteer by clicking the pictures below it.
+# Deployed the site on
+https://ngo-website.herokuapp.com/
 
 # Contributors
   Aabha Pingle (FE 7) 
